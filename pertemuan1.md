@@ -20,7 +20,7 @@
 
 ## 1. Konsep Pemrograman Berorientasi Objek
 >Pemrograman berorientasi objek (*Object Oriented Programming/OOP*) adalah paradigma pemrograman berdasarkan konsep "objek", yang mungkin berisi data, dalam bentuk bidang, sering dikenal sebagai atribut; dan kode, dalam bentuk prosedur, yang sering disebut sebagai metode. Misalnya, seseorang adalah suatu objek yang memiliki sifat tertentu seperti tinggi, jenis kelamin, usia, dll. Ia juga memiliki metode tertentu seperti bergerak, berbicara, dan sebagainya.
->
+<br>
 >Beberapa ciri dan konsep dalam OOP/PBO adalah abtraksi(*abstraction*), pembungkusan (*encapsulation*), pewarisan (*inheritance*), dan polimorfisme (*polymorphism*).
 
 >![OOP](./oop.png)
@@ -60,3 +60,46 @@
 >>* java.net    : Diperuntukan kelas TCP/IP, yang memungkinkan berkomunikasi dengan komputer lain menggunakan jaringan TCP/IP.
 >>* java.awt    : Kelas dasar untuk sebuah aplikasi antarmuka dengan pengguna (GUI)
 >>* java.applet : Kelas dasar aplikasi antar muka untuk diterapkan di penjelajah web.
+
+## Keunggulan Pemrograman Berorientasi Objek terhadap Pemrograman Struktural/Prosedural
+Salah satu bahasa pemrograman dengan orientasi objek yang populer adalah Java. Bahasa Pemrograman ini menjadi populer karena kemudahan dalam penggunaannya. Java termasuk bahasa pemrograman yang bersifat umum/non spesifik (general purpose), dan secara khusus di desain untuk memanfaatkan dependensi implementasi seminimal mungkin.
+
+### a. Kelebihan PBO
+>1. Pada penggunaan sebuah *class* hanya perlu ditulis sekali
+>2. Penambahan fitur pada *class* tanpa mengubah *class* semula
+>3. Penggunaan *object* tanpa harus mengerti teknis yang ada didalamnya
+>4. Data yang digunakan dalam bentuk *private* hanya dapat diakses oleh fungsi lokasi. Jadi, tidak perlu khawatir untuk memengaruhi fungsi lainnya
+>5. *Library* Java makin bertambah karena meningkatnya pengembangan aplikasi sehingga *library* juga ikut meningkat. Hal tersebut memudahkan *programmer* dalam membangun sebuah aplikasi. Selain itu, tampilannya juga cukup rapi.
+>6. Memiliki sintaks. Contoh : bahasa C dan C++
+>7. Memiliki pengaturan memori secara langsung
+
+### b. Pengembangan Terintegrasi
+>IDE (Integrated Development Environment) adalah program komputer sebagai lingkungan pengembangan aplikasi atau program komputer yang mempunyai beberapa fasilitas yang dibutuhkan dalam pembangunan perangkat lunak (Software).
+>Tujuan dari IDE yaitu untuk menyediakan semua utilitas yang dibutuhkan untuk membangun perangkat lunak. Menjadi seorang programmer diharuskan untuk mengetahui berbagai Integrated Development Environment untuk pembangunan perangkat lunak.
+>
+>Lingkungan Pengembangan Terpadu, setidaknya memiliki fasilitas seperti :
+>
+>- Editor, fasilitas ini diperuntukan menuliskan kode atau fungsi-fungsi yang bisa diterjemahkan oleh mesin komputer >- sebagai kode programming.
+>- Compiler, Berfungsi untuk menjalankan bentuk kode program yang di tuliskan di Editor dan mengubah dalam bentuk binary yang selanjutnya akan ditampilkan sesuai perintah-perintah kode mesin.
+>- Debuger, Berguna untuk mengecek dan juga mengetes jalannya kode program untuk mencari atau mendebug kesalahan dari program.
+>- Frame/Views, fasilitias yang satu ini berguna untuk menujukan atau menampilkan hasil dari perintah-perintah kode program yang dieksekusikan oleh Compiler dari Editor.
+>
+>Beberapa contoh Java IDE yang populer : IntelliJ IDEA, NetBeans, Dr. Java, Eclipse, BlueJ, Oracle JDeveloper, dsb.
+
+### c. Kelebihan program Java
+>- *Multiplatform*
+>>Sesuai dengan prinsip "Tulis sekali, jalankan dimana saja". Java dapat dijalankan diberbagai Sistem Operasi, seperti Microsoft Windows, Linux, MacOS, dan Sun Solaris. Hal ini disebabkan karena setiap Sistem Operasi menggunakan programnya masing-masing (yang dapat diunduh dari situs Java) untuk menginterpretasikan *bytecode* tersebut.
+>- *Class Librabry*/Perpustakaan Class
+>>Java terkenal dengan kelengkapan *library* yang memudahkan dalam penggunaannya oleh para *programmer* untuk membangun aplikasinya. Kelengkapannya ditambah dengan keberadaan komunitas Java yang terus-menerus membuat perpustakaan-perpustakaan baru untuk melingkupi seluruh kebutuhan pengembangan aplikasi.
+>- Bergaya C++
+>>*Sysntax* yang dimiliki oleh Java tidak jauh berbeda dengan bahasa C++. Hal ini dikarenakan Java dikembangkan berdasarkan bahasa C dan C++.
+>- Pengumpulan Sampah Otomatis
+>>Memiliki fasilitas pengaturan penggunaan memori sehingga para *programmer* tidak perlu melakukan pengaturan memori secara langsung (seperti halnya bahasa C++ yang dipakai secara luas).
+
+### d. Kekurangan Program Java
+>- Tulis sekali, jalankan di mana saja
+>>Ada beberapa faktor yang menyebabkan hal ini terkendala dikarenakan kompabilitas antara satu *platform* dengan *platform* lainnya. Contohnya J2SE, sampai saat ini SWT-AWT *bridge* tidak dapat berfungsi pada MacOS X
+>- Mudah didekompilasi
+>>Dekompilasi merupakan proses pengembalian/pembalikan kode yang sudah jadi menjadi kode sumber. Hal ini dimungkinkan karena kode jadi Java merupakan *bytecode* yang menyimpan banyak atribut bahasa tingkat tinggi, seperti nama-nama *class*, *method*, dan tipe data. Sehingga algoritma yang digunakan program akan lebih sulit untuk disembunyikan dan mudah dibajak/*reverse engineering*
+>- Penggunaan memori yang banyak
+>>Penggunaan memori untuk program berbasi Java jauh lebih besar daripada bahasa tingkat tinggi generasi sebelumnya, seperti C/C++, Pascal, Delphi, dan Object Pascal. Umumnya, bukan masalah bagi pihak yang menggunakan teknologi terbaru.
