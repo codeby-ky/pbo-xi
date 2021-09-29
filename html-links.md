@@ -74,10 +74,11 @@ dengan hasil :
 <a href="mailto:fariszakyalfaiz@outlook.co.id">Kirim email</a>
 
 Latihan!
+
 Buatlah halaman HTML berisi biodata dengan ketentuan :
-title - Biodata
-heading 2 - Biodata
-table :
+- title - Biodata
+- heading 2 - Biodata
+- table :
     - 2 kolom
     - baris berisi (nama, ttl, alamat, hobi, email, sosial media (fb, twitter, ig)
     - buat <i>hyperlink</i> atau tautan pada masing-masing media sosial
@@ -85,3 +86,4 @@ table :
         - fb : target default
         - twitter : target top
         - ig : target blank, gunakan image link menggunakan logo ig
+    - gunakan unordered list pada daftar media sosial
