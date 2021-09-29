@@ -39,7 +39,7 @@ Atribut ```target``` dapat memiliki salah satu dari nilai berikut:
 - ```_top``` - Membuka dokumen di seluruh badan jendela
 
 Contoh :
-```<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>```
+```<a href="https://www.google.com/" target="_blank">Kunjungi Google!</a>```
 
 dengan hasil :
 
